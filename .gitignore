@@ -3,3 +3,10 @@
 
 # Packaging
 .cask
+
+# Backups
+*.*~
+
+# Misc
+.emacs.d/elpa/
+mastodon.plstore
