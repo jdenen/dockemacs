@@ -21,8 +21,15 @@
 ;; Prompts
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; Debug
+(setq debug-on-error t)
+
 ;; Git
 (use-package magit
+  :ensure t)
+
+;; El Mock
+(use-package el-mock
   :ensure t)
 
 ;; Undo
